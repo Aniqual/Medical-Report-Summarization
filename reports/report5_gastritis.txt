@@ -1,0 +1,30 @@
+Patient Name: Synthetic Case 05
+Age/Sex: 33/M
+Date: 2026-01-30
+
+Chief Complaint:
+Upper abdominal burning sensation.
+
+History of Present Illness:
+Epigastric burning and nausea for 1 week, worse after spicy food. No vomiting of blood.
+
+Past Medical History:
+Occasional NSAID use.
+
+Vitals:
+Stable.
+
+Investigations:
+CBC: Normal.
+Stool occult blood: Negative.
+
+Assessment:
+Acute gastritis / GERD.
+
+Plan / Treatment:
+Pantoprazole 40 mg once daily.
+Diet modification: avoid spicy, caffeine.
+Stop NSAIDs.
+
+Follow-up:
+Review in 1 week. Consider endoscopy if symptoms persist.

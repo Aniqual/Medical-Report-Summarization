@@ -1,0 +1,20 @@
+============================================================
+STRUCTURED MEDICAL SUMMARY
+Report: report5_gastritis.txt
+============================================================
+
+SYMPTOMS
+Upper abdominal burning sensation.
+
+DIAGNOSIS
+Acute gastritis / GERD.
+
+TESTS
+
+
+TREATMENT
+Pantoprazole 40 mg once daily.
+
+AI SUMMARY
+Stool occult blood: Negative.  History of Present Illness: Epigastric burning and nausea for 1 week, worse after spicy food.  No vomiting of blood.  Past Medical History: Occasional NSAid use.  Follow-up: Review in 1 week.  Consider endoscopy if symptoms persist
+============================================================

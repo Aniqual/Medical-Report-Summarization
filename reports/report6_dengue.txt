@@ -1,0 +1,31 @@
+    Patient Name: Synthetic Case 06
+    Age/Sex: 24/M
+    Date: 2026-02-01
+
+    Chief Complaint:
+    Fever with body pain for 4 days.
+
+    History of Present Illness:
+    High fever, severe myalgia, headache, retro-orbital pain. No bleeding.
+
+    Past Medical History:
+    None.
+
+    Vitals:
+    BP 100/70 mmHg, HR 96 bpm, Temp 102.2 F.
+
+    Investigations:
+    NS1 antigen: Positive.
+    Platelets: 95,000 /mm3.
+    Hematocrit: Increased.
+
+    Assessment:
+    Dengue fever without warning signs.
+
+    Plan / Treatment:
+    Oral fluids and IV fluids as needed.
+    Paracetamol only (avoid NSAIDs).
+    Monitor platelets daily.
+
+    Follow-up:
+    Watch for bleeding, abdominal pain, persistent vomiting.

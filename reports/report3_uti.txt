@@ -1,0 +1,30 @@
+Patient Name: Synthetic Case 03
+Age/Sex: 26/F
+Date: 2026-02-02
+
+Chief Complaint:
+Burning urination and lower abdominal pain.
+
+History of Present Illness:
+Dysuria, frequency, urgency for 3 days. Mild suprapubic pain. No flank pain.
+
+Past Medical History:
+No known illness.
+
+Vitals:
+BP 110/70 mmHg, HR 84 bpm, Temp 99.1 F.
+
+Investigations:
+Urine routine: Pus cells 20-25/hpf, nitrite positive.
+Urine culture: Pending.
+
+Assessment:
+Acute uncomplicated urinary tract infection.
+
+Plan / Treatment:
+Oral nitrofurantoin 100 mg twice daily for 5 days.
+Increase oral fluids.
+Pain relief as needed.
+
+Follow-up:
+Review after 3 days or earlier if fever/flank pain develops.

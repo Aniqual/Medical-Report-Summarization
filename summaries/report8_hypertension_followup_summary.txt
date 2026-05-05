@@ -1,0 +1,20 @@
+============================================================
+STRUCTURED MEDICAL SUMMARY
+Report: report8_hypertension_followup.txt
+============================================================
+
+SYMPTOMS
+Routine follow-up for blood pressure.
+
+DIAGNOSIS
+Uncontrolled hypertension.
+
+TESTS
+
+
+TREATMENT
+Increase amlodipine dose and add telmisartan.
+
+AI SUMMARY
+BP 152/88 mmHg, HR 76 bpm.  Investigations: Lipid profile: LDL elevated.  Plan / Treatment: Increase amlodipine dose and add telmisartan.  Lifestyle advice: low salt diet, daily walking.  Follow-up: BP check in 2 weeks.  Patient Name: Synthetic Case 08 Age/Sex: 61/M Date: 2026-02-04 Chief Complaint:
+============================================================

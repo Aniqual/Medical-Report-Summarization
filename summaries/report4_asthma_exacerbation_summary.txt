@@ -1,0 +1,25 @@
+============================================================
+STRUCTURED MEDICAL SUMMARY
+Report: report4_asthma_exacerbation.txt
+============================================================
+
+SYMPTOMS
+Wheezing and shortness of breath since morning.
+
+DIAGNOSIS
+Acute asthma exacerbation.
+
+TESTS
+
+
+TREATMENT
+Nebulization with salbutamol + ipratropium.
+IV steroids started.
+Oxygen support.
+
+Follow-up:
+Observe response to treatment, counsel on inhaler compliance.
+
+AI SUMMARY
+BP 124/78 mmHg, HR 110 bpm, RR 28/min, SpO2 90% on room air.  Investigations: Peak flow: Reduced.  Chest auscultation: Bilateral wheeze.  Assessment: Acute asthma exacerbation.  Plan / Treatment: Nebulization with salbutamol + ipratropium.  Follow-up: Observe response to treatment, counsel on inhaler compliance
+============================================================

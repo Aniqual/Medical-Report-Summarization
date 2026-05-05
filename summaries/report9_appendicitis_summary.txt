@@ -1,0 +1,24 @@
+============================================================
+STRUCTURED MEDICAL SUMMARY
+Report: report9_appendicitis.txt
+============================================================
+
+SYMPTOMS
+Right lower abdominal pain.
+
+DIAGNOSIS
+Acute appendicitis.
+
+TESTS
+
+
+TREATMENT
+Surgical consult. Patient planned for laparoscopic appendectomy.
+IV fluids and antibiotics started.
+
+Follow-up:
+Post-operative monitoring.
+
+AI SUMMARY
+Investigations: CBC: WBC 15,200 /mm3.  USG abdomen: Inflamed appendix.  Plan / Treatment: Surgical consult.  Patient planned for laparoscopic appendectomy.  IV fluids and antibiotics started
+============================================================

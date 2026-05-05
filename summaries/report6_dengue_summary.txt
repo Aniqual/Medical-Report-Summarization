@@ -1,0 +1,25 @@
+============================================================
+STRUCTURED MEDICAL SUMMARY
+Report: report6_dengue.txt
+============================================================
+
+SYMPTOMS
+Fever with body pain for 4 days.
+
+DIAGNOSIS
+Dengue fever without warning signs.
+
+TESTS
+NS1 antigen: Positive.
+
+TREATMENT
+Oral fluids and IV fluids as needed.
+Paracetamol only (avoid NSAIDs).
+Monitor platelets daily.
+
+Follow-up:
+Watch for bleeding, abdominal pain, persistent vomiting.
+
+AI SUMMARY
+: BP 100/70 mmHg, HR 96 bpm, Temp 102.  Investigations: NS1 antigen: Positive.  Assessment: Dengue fever without warning signs.  Follow-up: Watch for bleeding, abdominal pain, persistent vomiting
+============================================================

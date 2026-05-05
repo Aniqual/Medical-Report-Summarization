@@ -1,0 +1,25 @@
+============================================================
+STRUCTURED MEDICAL SUMMARY
+Report: report10_stroke.txt
+============================================================
+
+SYMPTOMS
+Sudden weakness of right side.
+
+DIAGNOSIS
+Acute ischemic stroke likely cardioembolic.
+
+TESTS
+
+
+TREATMENT
+Neurology consult. Thrombolysis considered (within window).
+Start antiplatelet after evaluation.
+Control BP carefully.
+
+Follow-up:
+Physiotherapy and stroke unit care.
+
+AI SUMMARY
+BP 178/96 mmHg, HR 112 irregular.  Investigations: CT brain: No hemorrhage.  Assessment: Acute ischemic stroke likely cardioembolic.  Thrombolysis considered (within window).  Start antiplatelet after evaluation.  Follow-up: Physiotherapy and stroke unit care
+============================================================

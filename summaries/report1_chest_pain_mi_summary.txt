@@ -1,0 +1,24 @@
+============================================================
+STRUCTURED MEDICAL SUMMARY
+Report: report1_chest_pain_mi.txt
+============================================================
+
+SYMPTOMS
+Chest pain for 2 hours.
+
+DIAGNOSIS
+Acute inferior wall myocardial infarction.
+
+TESTS
+
+TREATMENT
+Aspirin 325 mg stat, clopidogrel 300 mg loading, heparin infusion started.
+Cardiology consulted. Patient taken for urgent angioplasty.
+Continue beta-blocker and statin.
+
+Follow-up:
+Monitor vitals, repeat troponin, post-PCI observation in ICU.
+
+AI SUMMARY
+, RR 22/min, SpO2 94% on room air, Temp 98.  Investigations: ECG: ST elevation in leads II, III, aVF.  Blood glucose: 246 mg/dL, clopidogrel 300 mg loading, heparin infusion started.  Patient taken for urgent angioplasty.  Continue beta-blocker and statin.  Follow-up: Monitor vitals, repeat trop
+============================================================

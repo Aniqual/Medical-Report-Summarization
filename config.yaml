@@ -1,0 +1,7 @@
+model_id: "google/flan-t5-base"
+max_input_tokens: 512
+max_new_tokens: 140
+input_folder: "reports"
+output_folder: "summaries"
+result_file: "results.csv"
+hallucination_filter_threshold: 3

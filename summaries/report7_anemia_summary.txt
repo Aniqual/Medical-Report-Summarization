@@ -1,0 +1,24 @@
+============================================================
+STRUCTURED MEDICAL SUMMARY
+Report: report7_anemia.txt
+============================================================
+
+SYMPTOMS
+Fatigue and dizziness.
+
+DIAGNOSIS
+Iron deficiency anemia due to menorrhagia.
+
+TESTS
+
+
+TREATMENT
+Oral iron therapy started.
+Gynecology consult for menorrhagia evaluation.
+
+Follow-up:
+Repeat Hb in 4 weeks.
+
+AI SUMMARY
+Assessment: Iron deficiency anemia due to menorrhagia.  Plan / Treatment: Oral iron therapy started.  Gynecology consult for menoria evaluation.  Follow-up: Repeat Hb in 4 weeks.  Patient Name: Synthetic Case 07 Age/Sex: 29/F Date: 2026-02-02 Chief Complaint: Fatigue and dizziness.  History of Present Illness: Progressive tiredness for 2 months, occasional palpitations
+============================================================

@@ -1,0 +1,30 @@
+Patient Name: Synthetic Case 10
+Age/Sex: 67/F
+Date: 2026-02-03
+
+Chief Complaint:
+Sudden weakness of right side.
+
+History of Present Illness:
+Sudden onset right arm and leg weakness with slurred speech since 1 hour.
+
+Past Medical History:
+Hypertension, atrial fibrillation.
+
+Vitals:
+BP 178/96 mmHg, HR 112 irregular.
+
+Investigations:
+CT brain: No hemorrhage.
+ECG: Atrial fibrillation.
+
+Assessment:
+Acute ischemic stroke likely cardioembolic.
+
+Plan / Treatment:
+Neurology consult. Thrombolysis considered (within window).
+Start antiplatelet after evaluation.
+Control BP carefully.
+
+Follow-up:
+Physiotherapy and stroke unit care.

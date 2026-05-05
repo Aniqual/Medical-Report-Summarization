@@ -1,0 +1,31 @@
+Patient Name: Synthetic Case 02
+Age/Sex: 42/F
+Date: 2026-01-28
+
+Chief Complaint:
+Fever and cough for 5 days.
+
+History of Present Illness:
+High-grade fever with chills, productive cough with yellow sputum, mild breathlessness on exertion. No chest pain.
+
+Past Medical History:
+No known chronic illness.
+
+Vitals:
+BP 118/76 mmHg, HR 98 bpm, RR 20/min, SpO2 93% on room air, Temp 101.8 F.
+
+Investigations:
+Chest X-ray: Right lower lobe consolidation.
+CBC: WBC 14,500 /mm3.
+CRP: Elevated.
+
+Assessment:
+Community-acquired pneumonia.
+
+Plan / Treatment:
+Started IV ceftriaxone + azithromycin.
+Steam inhalation, hydration, paracetamol for fever.
+Oxygen support if SpO2 < 92%.
+
+Follow-up:
+Repeat chest X-ray after 5 days. Discharge after clinical improvement.

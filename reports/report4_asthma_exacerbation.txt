@@ -1,0 +1,30 @@
+Patient Name: Synthetic Case 04
+Age/Sex: 19/M
+Date: 2026-02-03
+
+Chief Complaint:
+Wheezing and shortness of breath since morning.
+
+History of Present Illness:
+Known asthma patient. Symptoms triggered after dust exposure. Using inhaler irregularly.
+
+Past Medical History:
+Bronchial asthma since childhood.
+
+Vitals:
+BP 124/78 mmHg, HR 110 bpm, RR 28/min, SpO2 90% on room air.
+
+Investigations:
+Peak flow: Reduced.
+Chest auscultation: Bilateral wheeze.
+
+Assessment:
+Acute asthma exacerbation.
+
+Plan / Treatment:
+Nebulization with salbutamol + ipratropium.
+IV steroids started.
+Oxygen support.
+
+Follow-up:
+Observe response to treatment, counsel on inhaler compliance.

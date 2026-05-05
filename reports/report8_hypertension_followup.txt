@@ -1,0 +1,29 @@
+Patient Name: Synthetic Case 08
+Age/Sex: 61/M
+Date: 2026-02-04
+
+Chief Complaint:
+Routine follow-up for blood pressure.
+
+History of Present Illness:
+Known hypertensive on amlodipine. Reports occasional headache.
+
+Past Medical History:
+Hypertension, dyslipidemia.
+
+Vitals:
+BP 152/88 mmHg, HR 76 bpm.
+
+Investigations:
+Lipid profile: LDL elevated.
+Creatinine: Normal.
+
+Assessment:
+Uncontrolled hypertension.
+
+Plan / Treatment:
+Increase amlodipine dose and add telmisartan.
+Lifestyle advice: low salt diet, daily walking.
+
+Follow-up:
+BP check in 2 weeks.

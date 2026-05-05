@@ -1,0 +1,25 @@
+============================================================
+STRUCTURED MEDICAL SUMMARY
+Report: report2_pneumonia.txt
+============================================================
+
+SYMPTOMS
+Fever and cough for 5 days.
+
+DIAGNOSIS
+Community-acquired pneumonia.
+
+TESTS
+Chest X-ray: Right lower lobe consolidation.
+
+TREATMENT
+Started IV ceftriaxone + azithromycin.
+Steam inhalation, hydration, paracetamol for fever.
+Oxygen support if SpO2 < 92%.
+
+Follow-up:
+Repeat chest X-ray after 5 days. Discharge after clinical improvement.
+
+AI SUMMARY
+: BP 118/76 mmHg, HR 98 bpm, RR 20/min, SpO2 93% on room air, Temp 101.  Investigations: Chest X-ray: Right lower lobe consolidation.  CBC: WBC 14,500 /mm3.  Plan / Treatment: Started IV ceftriaxone + azithromycin
+============================================================

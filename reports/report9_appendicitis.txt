@@ -1,0 +1,29 @@
+Patient Name: Synthetic Case 09
+Age/Sex: 21/M
+Date: 2026-02-01
+
+Chief Complaint:
+Right lower abdominal pain.
+
+History of Present Illness:
+Pain started near umbilicus and shifted to right iliac fossa. Associated nausea and low-grade fever.
+
+Past Medical History:
+None.
+
+Vitals:
+BP 116/74 mmHg, HR 102 bpm, Temp 100.4 F.
+
+Investigations:
+CBC: WBC 15,200 /mm3.
+USG abdomen: Inflamed appendix.
+
+Assessment:
+Acute appendicitis.
+
+Plan / Treatment:
+Surgical consult. Patient planned for laparoscopic appendectomy.
+IV fluids and antibiotics started.
+
+Follow-up:
+Post-operative monitoring.

@@ -1,0 +1,232 @@
+2026-03-12 12:17:56,144 [INFO] Using default tokenizer.
+2026-03-12 12:17:56,145 [INFO] === Medical Report Summarizer ===
+2026-03-12 12:17:56,147 [INFO] Loaded: report10_stroke.txt
+2026-03-12 12:17:56,148 [INFO] Loaded: report1_chest_pain_mi.txt
+2026-03-12 12:17:56,148 [INFO] Loaded: report2_pneumonia.txt
+2026-03-12 12:17:56,149 [INFO] Loaded: report3_uti.txt
+2026-03-12 12:17:56,150 [INFO] Loaded: report4_asthma_exacerbation.txt
+2026-03-12 12:17:56,151 [INFO] Loaded: report5_gastritis.txt
+2026-03-12 12:17:56,152 [INFO] Loaded: report6_dengue.txt
+2026-03-12 12:17:56,153 [INFO] Loaded: report7_anemia.txt
+2026-03-12 12:17:56,156 [INFO] Loaded: report8_hypertension_followup.txt
+2026-03-12 12:17:56,158 [INFO] Loaded: report9_appendicitis.txt
+2026-03-12 12:17:56,159 [INFO] Loaded 10 report(s)
+2026-03-12 12:17:56,161 [INFO] Loading model 't5-small' on cpu ...
+2026-03-12 12:17:57,186 [INFO] HTTP Request: HEAD https://huggingface.co/t5-small/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-12 12:17:57,494 [INFO] HTTP Request: HEAD https://huggingface.co/t5-small/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-12 12:17:57,801 [INFO] HTTP Request: GET https://huggingface.co/api/models/t5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-03-12 12:17:58,109 [INFO] HTTP Request: GET https://huggingface.co/api/models/google-t5/t5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-12 12:17:58,416 [INFO] HTTP Request: GET https://huggingface.co/api/models/t5-small/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-03-12 12:17:58,843 [INFO] HTTP Request: GET https://huggingface.co/api/models/google-t5/t5-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-12 12:17:59,469 [INFO] HTTP Request: HEAD https://huggingface.co/t5-small/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-12 12:18:00,266 [INFO] HTTP Request: HEAD https://huggingface.co/t5-small/resolve/main/generation_config.json "HTTP/1.1 200 OK"
+2026-03-12 12:18:00,275 [INFO] Model ready.
+2026-03-12 12:18:00,275 [INFO] [t5-small] Processing: report10_stroke.txt
+2026-03-12 12:18:03,334 [INFO] [t5-small] Processing: report1_chest_pain_mi.txt
+2026-03-12 12:18:06,775 [INFO] [t5-small] Processing: report2_pneumonia.txt
+2026-03-12 12:18:10,993 [INFO] [t5-small] Processing: report3_uti.txt
+2026-03-12 12:18:13,257 [INFO] [t5-small] Processing: report4_asthma_exacerbation.txt
+2026-03-12 12:18:16,332 [INFO] [t5-small] Processing: report5_gastritis.txt
+2026-03-12 12:18:19,504 [INFO] [t5-small] Processing: report6_dengue.txt
+2026-03-12 12:18:22,343 [INFO] [t5-small] Processing: report7_anemia.txt
+2026-03-12 12:18:25,673 [INFO] [t5-small] Processing: report8_hypertension_followup.txt
+2026-03-12 12:18:28,908 [INFO] [t5-small] Processing: report9_appendicitis.txt
+2026-03-12 12:18:31,279 [INFO] Results saved: results.csv
+2026-03-12 12:18:31,796 [INFO] Graph saved: rouge_graph.png
+2026-03-12 12:18:31,797 [INFO] Done. Summaries in 'summaries', results in 'results.csv'.
+2026-03-15 08:12:59,010 [INFO] Using default tokenizer.
+2026-03-15 08:12:59,053 [INFO] Loading model 't5-small' on cpu ...
+2026-03-15 08:12:59,835 [INFO] HTTP Request: HEAD https://huggingface.co/t5-small/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-15 08:13:00,102 [INFO] HTTP Request: HEAD https://huggingface.co/t5-small/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-15 08:13:00,345 [INFO] HTTP Request: GET https://huggingface.co/api/models/t5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-03-15 08:13:00,570 [INFO] HTTP Request: GET https://huggingface.co/api/models/google-t5/t5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-15 08:13:00,795 [INFO] HTTP Request: GET https://huggingface.co/api/models/t5-small/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-03-15 08:13:01,018 [INFO] HTTP Request: GET https://huggingface.co/api/models/google-t5/t5-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-15 08:13:01,588 [INFO] HTTP Request: HEAD https://huggingface.co/t5-small/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-15 08:13:01,588 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-15 08:13:02,227 [INFO] HTTP Request: HEAD https://huggingface.co/t5-small/resolve/main/generation_config.json "HTTP/1.1 200 OK"
+2026-03-15 08:13:02,242 [INFO] Model ready.
+2026-03-15 09:54:23,778 [INFO] Using default tokenizer.
+2026-03-15 09:54:23,903 [INFO] Loading model 'google/flan-t5-base' on cpu ...
+2026-03-15 09:54:24,691 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-15 09:54:24,709 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-15 09:54:24,731 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-15 09:54:25,039 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-15 09:54:25,059 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-15 09:54:25,079 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-15 09:54:25,350 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-15 09:54:25,596 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-15 09:54:25,891 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/spiece.model "HTTP/1.1 302 Found"
+2026-03-15 09:54:26,298 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/xet-read-token/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2 "HTTP/1.1 200 OK"
+2026-03-15 09:54:29,463 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-15 09:54:29,482 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-15 09:54:29,504 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-15 09:54:29,851 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-03-15 09:54:30,088 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-15 09:54:30,109 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-03-15 09:54:30,135 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-03-15 09:54:30,386 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-03-15 09:54:31,029 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-15 09:54:31,048 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-15 09:54:31,608 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-03-15 09:56:12,738 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-15 09:56:12,748 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-03-15 09:56:12,765 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-03-15 09:56:12,782 [INFO] Model ready.
+2026-03-15 10:01:43,137 [INFO] Using default tokenizer.
+2026-03-24 12:10:34,551 [INFO] Using default tokenizer.
+2026-03-24 12:10:35,279 [INFO] Loading model 'google/flan-t5-base' on cpu ...
+2026-03-24 12:10:36,323 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-24 12:10:36,468 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-24 12:10:37,063 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-24 12:10:37,229 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-24 12:10:37,562 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-24 12:10:37,811 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-24 12:10:39,281 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-24 12:10:39,284 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-24 12:10:39,385 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-24 12:10:41,321 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-24 12:10:41,389 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-03-24 12:10:41,435 [INFO] Model ready.
+2026-03-28 09:47:10,438 [INFO] Using default tokenizer.
+2026-03-28 09:47:10,566 [INFO] Loading model 'google/flan-t5-base' on cpu ...
+2026-03-28 09:47:11,348 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 09:47:11,378 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-28 09:47:11,654 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 09:47:11,656 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-28 09:47:11,684 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-28 09:47:11,961 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-28 09:47:12,195 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-28 09:47:12,838 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 09:47:12,860 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-28 09:47:14,762 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-28 09:47:14,787 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-03-28 09:47:14,811 [INFO] Model ready.
+2026-03-30 11:43:16,869 [INFO] Using default tokenizer.
+2026-03-30 11:43:17,594 [INFO] Loading model 'google/flan-t5-base' on cpu ...
+2026-03-30 11:43:20,460 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-30 11:43:20,488 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-30 11:43:20,972 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-30 11:43:20,996 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-30 11:43:21,385 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-30 11:43:21,690 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-30 11:43:23,531 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-30 11:43:23,543 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-30 11:43:23,616 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-03-30 11:43:35,719 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-30 11:43:35,742 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-03-30 11:43:35,836 [INFO] Model ready.
+2026-04-01 09:26:33,663 [INFO] Using default tokenizer.
+2026-04-01 09:26:33,830 [INFO] Loading model 'google/flan-t5-base' on cpu ...
+2026-04-01 09:26:35,044 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-01 09:26:35,057 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-04-01 09:26:35,409 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-01 09:26:35,439 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-01 09:26:35,724 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-01 09:26:35,988 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-01 09:26:36,586 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-01 09:26:36,587 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-01 09:26:36,603 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-04-01 09:26:38,000 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-01 09:26:38,010 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-04-01 09:26:38,049 [INFO] Model ready.
+2026-04-06 11:13:34,789 [INFO] Using default tokenizer.
+2026-04-06 11:13:35,543 [INFO] Loading model 'google/flan-t5-base' on cpu ...
+2026-04-06 11:13:40,462 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-06 11:13:40,474 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-06 11:13:40,620 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-04-06 11:13:41,247 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-06 11:13:41,312 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-06 11:13:42,057 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-06 11:13:42,438 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-06 11:13:45,170 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-06 11:13:45,221 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-04-06 11:14:00,031 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-06 11:14:00,439 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-04-06 11:14:03,078 [INFO] Model ready.
+2026-04-23 23:56:49,805 [INFO] Using default tokenizer.
+2026-04-23 23:56:50,076 [INFO] Loading model 'google/flan-t5-base' on cpu ...
+2026-04-23 23:56:51,089 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 23:56:51,100 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-04-23 23:56:51,408 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 23:56:51,420 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-23 23:56:51,712 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-23 23:56:51,976 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-23 23:56:52,858 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 23:56:52,860 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-23 23:56:52,868 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-04-23 23:56:53,622 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-23 23:56:53,633 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-04-23 23:56:53,659 [INFO] Model ready.
+2026-04-24 00:00:52,992 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 00:00:53,074 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/config.json "HTTP/1.1 200 OK"
+2026-04-24 00:00:53,187 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/config.json "HTTP/1.1 200 OK"
+2026-04-24 00:00:53,974 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-04-24 00:00:54,428 [INFO] HTTP Request: GET https://huggingface.co/api/models/cross-encoder/nli-deberta-v3-small/xet-read-token/fa2804872c3b4bd748f38c0185cc85775361e735 "HTTP/1.1 200 OK"
+2026-04-24 00:02:06,914 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 00:02:06,927 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/config.json "HTTP/1.1 200 OK"
+2026-04-24 00:02:07,219 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 00:02:07,231 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-24 00:02:07,248 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-24 00:02:07,808 [INFO] HTTP Request: GET https://huggingface.co/api/models/cross-encoder/nli-deberta-v3-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-24 00:02:08,077 [INFO] HTTP Request: GET https://huggingface.co/api/models/cross-encoder/nli-deberta-v3-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-24 00:02:08,355 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/spm.model "HTTP/1.1 302 Found"
+2026-04-24 00:02:10,250 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 00:02:10,262 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/tokenizer.json "HTTP/1.1 200 OK"
+2026-04-24 00:02:10,292 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/tokenizer.json "HTTP/1.1 200 OK"
+2026-04-24 00:02:11,177 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/added_tokens.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 00:02:11,208 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/added_tokens.json "HTTP/1.1 200 OK"
+2026-04-24 00:02:11,268 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/added_tokens.json "HTTP/1.1 200 OK"
+2026-04-24 00:02:11,940 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 00:02:11,952 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-04-24 00:02:11,973 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-04-24 00:02:12,271 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-04-24 00:02:14,815 [INFO] HTTP Request: GET https://huggingface.co/api/models/cross-encoder/nli-deberta-v3-small "HTTP/1.1 200 OK"
+2026-04-24 00:02:15,089 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 00:02:15,147 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/README.md "HTTP/1.1 200 OK"
+2026-04-24 00:02:15,406 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/README.md "HTTP/1.1 200 OK"
+2026-04-24 00:02:15,672 [INFO] Use pytorch device: cpu
+2026-04-24 00:02:16,191 [INFO] HTTP Request: GET https://huggingface.co/api/models/cross-encoder/nli-deberta-v3-small "HTTP/1.1 200 OK"
+2026-04-24 00:02:16,194 [INFO] NLI model loaded successfully.
+2026-04-27 06:33:13,925 [INFO] Using default tokenizer.
+2026-04-27 06:33:14,386 [INFO] Loading model 'google/flan-t5-base' on cpu ...
+2026-04-27 06:33:16,421 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 06:33:16,424 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-27 06:33:16,468 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-04-27 06:33:16,847 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 06:33:16,886 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-27 06:33:17,231 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-27 06:33:17,508 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-27 06:33:18,981 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 06:33:19,024 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-04-27 06:33:20,782 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 06:33:20,824 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-04-27 06:33:20,929 [INFO] Model ready.
+2026-04-27 06:38:34,393 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 06:38:34,431 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/config.json "HTTP/1.1 200 OK"
+2026-04-27 06:38:35,430 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 06:38:35,476 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/config.json "HTTP/1.1 200 OK"
+2026-04-27 06:38:35,771 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 06:38:35,816 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-27 06:38:36,211 [INFO] HTTP Request: GET https://huggingface.co/api/models/cross-encoder/nli-deberta-v3-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-27 06:38:36,483 [INFO] HTTP Request: GET https://huggingface.co/api/models/cross-encoder/nli-deberta-v3-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-27 06:38:39,228 [INFO] HTTP Request: GET https://huggingface.co/api/models/cross-encoder/nli-deberta-v3-small "HTTP/1.1 200 OK"
+2026-04-27 06:38:39,546 [INFO] HTTP Request: HEAD https://huggingface.co/cross-encoder/nli-deberta-v3-small/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 06:38:39,585 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/cross-encoder/nli-deberta-v3-small/fa2804872c3b4bd748f38c0185cc85775361e735/README.md "HTTP/1.1 200 OK"
+2026-04-27 06:38:39,660 [INFO] Use pytorch device: cpu
+2026-04-27 06:38:39,929 [INFO] HTTP Request: GET https://huggingface.co/api/models/cross-encoder/nli-deberta-v3-small "HTTP/1.1 200 OK"
+2026-04-27 06:38:39,958 [INFO] NLI model loaded successfully.
+2026-04-28 08:59:12,835 [INFO] Using default tokenizer.
+2026-04-28 08:59:13,413 [INFO] Loading model 'google/flan-t5-base' on cpu ...
+2026-04-28 08:59:15,711 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 08:59:15,730 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-04-28 08:59:16,253 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 08:59:16,256 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-28 08:59:16,276 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-28 08:59:16,682 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-28 08:59:16,954 [INFO] HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-28 08:59:18,330 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 08:59:18,343 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/config.json "HTTP/1.1 200 OK"
+2026-04-28 08:59:26,578 [INFO] HTTP Request: HEAD https://huggingface.co/google/flan-t5-base/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 08:59:26,594 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-base/7bcac572ce56db69c1ea7c8af255c5d7c9672fc2/generation_config.json "HTTP/1.1 200 OK"
+2026-04-28 08:59:26,707 [INFO] Model ready.

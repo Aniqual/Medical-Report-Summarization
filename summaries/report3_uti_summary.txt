@@ -1,0 +1,25 @@
+============================================================
+STRUCTURED MEDICAL SUMMARY
+Report: report3_uti.txt
+============================================================
+
+SYMPTOMS
+Burning urination and lower abdominal pain.
+
+DIAGNOSIS
+Acute uncomplicated urinary tract infection.
+
+TESTS
+
+
+TREATMENT
+Oral nitrofurantoin 100 mg twice daily for 5 days.
+Increase oral fluids.
+Pain relief as needed.
+
+Follow-up:
+Review after 3 days or earlier if fever/flank pain develops.
+
+AI SUMMARY
+Assessment: Acute uncomplicated urinary tract infection.  Plan / Treatment: Oral nitrofurantoin 100 mg twice daily for 5 days.  Pain relief as needed.  Follow-up: Review after 3 days or earlier if fever/flank pain develops
+============================================================

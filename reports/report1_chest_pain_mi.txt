@@ -1,0 +1,31 @@
+Patient Name: Synthetic Case 01
+Age/Sex: 55/M
+Date: 2026-02-01
+
+Chief Complaint:
+Chest pain for 2 hours.
+
+History of Present Illness:
+Patient reports central chest pain radiating to left arm with sweating and shortness of breath. Pain started at rest. No trauma.
+
+Past Medical History:
+Hypertension (10 years), Type 2 Diabetes (8 years).
+
+Vitals:
+BP 160/95 mmHg, HR 104 bpm, RR 22/min, SpO2 94% on room air, Temp 98.6 F.
+
+Investigations:
+ECG: ST elevation in leads II, III, aVF.
+Troponin I: Elevated.
+Blood glucose: 246 mg/dL.
+
+Assessment:
+Acute inferior wall myocardial infarction.
+
+Plan / Treatment:
+Aspirin 325 mg stat, clopidogrel 300 mg loading, heparin infusion started.
+Cardiology consulted. Patient taken for urgent angioplasty.
+Continue beta-blocker and statin.
+
+Follow-up:
+Monitor vitals, repeat troponin, post-PCI observation in ICU.
